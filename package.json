@@ -1,0 +1,22 @@
+{
+  "name": "etl-tgn-geonames",
+  "version": "0.0.1",
+  "description": "Find relations GeoNames and TGN",
+  "main": "tgn-geonames.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-spacetime/etl-tgn-geonames.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^6.0.8"
+  },
+  "dependencies": {
+    "elasticsearch-reasoner": "github:nypl-spacetime/elasticsearch-reasoner",
+    "highland": "^2.7.2"
+  }
+}
